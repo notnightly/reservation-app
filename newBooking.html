@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
+    />
+
+    <title>New Reservation | Reservation Booking</title>
+  </head>
+  <body>
+    <form action="/api/new" method="post">
+      <header>
+        <h1>Book reservation</h1>
+      </header>
+      <p>Phone number</p>
+      <input type="tel" name="phone" id="phone" required />
+      <br />
+      <p>Date</p>
+      <input type="date" name="date" id="date" required />
+      <br />
+      <p>Time</p>
+      <input type="time" name="time" id="time" required />
+      <br />
+      <p>Reservation charges: 50/- Rupees only</p>
+      <br />
+      <br />
+      <button type="submit">Proceed to pay</button>
+    </form>
+  </body>
+</html>
